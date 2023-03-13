@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="abc.css" rel="stylesheet" />
+
+    <link rel="js" href="script.js" />
+    <title>God of Workout</title>
+  </head>
+  <body class="main">
+    <!-- Меню -->
+
+    <div class="sidenav">
+      <a href="index.html"
+        ><img src="images/Gantle.png" alt="logo" id="logo"
+      /></a>
+      <a href="index.html">Главная</a>
+      <a href="records.html">Рекорды</a>
+      <a href="music.html">Музыка</a>
+      <a href="profile.html">Профиль</a>
+    </div>
+
+    <!-- Линии -->
+
+    <div style="margin-bottom: 100px">
+      <div class="lines">
+        <img
+          src="images/gym.jpg"
+          alt="Тренажерный зал - место в котором каждый найдет себя"
+          class="images"
+          onmouseover="showTooltip(event)"
+          onmouseout="hideTooltip()"
+        />
+        <div id="tooltip"></div>
+        <div class="content">
+          <h1>Добро пожаловать!</h1>
+          <p>
+            Что для вас спорт? Приятное времяпрепровождение?<br />
+            Или смысл жизни? Не важно! Если вы любитель спорта,<br />
+            то данный форум именно для вас!
+          </p>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+              Посетите наших друзей!
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="https://www.sportmaster.ru" target="_blank"
+                >Спортмастер</a
+              >
+              <a href="https://matchtv.ru/on-air" target="_blank">Матч ТВ</a>
+              <a href="https://www.sports.ru/" target="_blank">Спортс ру</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lines">
+        <img
+          src="images/gym2.jpg"
+          alt="Без усилий, нет резульата"
+          style="order: 2"
+          class="images"
+          onmouseover="showTooltip(event)"
+          onmouseout="hideTooltip()"
+        />
+
+        <div class="content">
+          <h1>Мотивация внутри вас</h1>
+          <p>
+            Помните, что каждый раз, когда вы приходите на тренировку, <br />
+            вы на один шаг приближаетесь к достижению своих целей. <br />
+            Продолжайте настаивать и никогда не сдавайтесь!
+          </p>
+        </div>
+      </div>
+
+      <div class="lines">
+        <img
+          src="images/gym3.jpg"
+          class="images"
+          alt="Каждая тренировка приносит результат"
+          onmouseover="showTooltip(event)"
+          onmouseout="hideTooltip()"
+        />
+
+        <div class="content">
+          <h1>Ты сильнее, чем думаешь</h1>
+          <p>
+            Приходя на тренирвовку, делай все, чтобы достичь своей цели, <br />
+            выложиться на максимум. Слабым прохода нет
+          </p>
+        </div>
+      </div>
+
+      <div class="lines">
+        <img
+          src="images/gym4.jpg"
+          alt="Никогда не останавливайтесь, идите до конца"
+          class="images"
+          style="order: 2"
+          onmouseover="showTooltip(event)"
+          onmouseout="hideTooltip()"
+        />
+
+        <div class="content">
+          <h1>Становитесь успешнее</h1>
+          <ul>
+            <li>
+              Установите конкретные цели и планируйте свой путь к достижению
+              этих целей.
+            </li>
+            <li>
+              Учитеся и развивайте свои навыки, будьте открыты для новых знаний
+              и опыта.
+            </li>
+            <li>
+              Найти свою страсть и увлечение в жизни, чтобы работа была не
+              только обязанностью, но и <br />
+              источником удовлетворения и удовольствия.
+            </li>
+            <li>
+              Будьте настойчивы и не бойтесь неудач - из них можно извлечь уроки
+              и двигаться дальше.
+            </li>
+            <li>
+              Окружайтесь позитивными и успешными людьми, которые могут вас
+              поддержать и вдохновить на большие дела.
+            </li>
+            <li>
+              Старайтесь быть организованными и эффективными, чтобы использовать
+              свое время и ресурсы максимально эффективно.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

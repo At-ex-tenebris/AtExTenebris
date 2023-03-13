@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="abc.css" rel="stylesheet" />
+    <title>God of Workout</title>
+  </head>
+  <body class="main">
+    <!-- Меню -->
+
+    <div class="sidenav">
+      <a href="index.html"
+        ><img src="images/Gantle.png" alt="logo" id="logo"
+      /></a>
+      <a href="index.html">Главная</a>
+      <a href="records.html">Рекорды</a>
+      <a href="music.html">Музыка</a>
+      <a href="profile.html">Профиль</a>
+    </div>
+
+    <div>
+      <div class="lines">
+        <form action="action_page.php">
+          <div class="container">
+            <div
+              class="content"
+              style="
+                float: none;
+                margin: 0;
+                padding-top: 20px;
+                margin-bottom: 20px;
+              "
+            >
+              <h1>Регистрация</h1>
+              <p>
+                Войдите или создайте свой аккаунт, чтобы была возможность
+                публиковать новости
+              </p>
+            </div>
+            <hr />
+
+            <label for="email"><b>Email</b></label>
+            <input
+              type="text"
+              placeholder="Введите Email"
+              name="email"
+              id="email"
+              class="inpt"
+              required
+            />
+
+            <label for="psw"><b>Пароль</b></label>
+            <input
+              type="password"
+              placeholder="Введите пароль"
+              name="psw"
+              id="psw"
+              class="inpt"
+              required
+            />
+
+            <label for="psw-repeat"><b>Повторите пароль</b></label>
+            <input
+              type="password"
+              placeholder="Повторите пароль"
+              name="psw-repeat"
+              class="inpt"
+              id="psw-repeat"
+              required
+            />
+            <hr />
+
+            <p>
+              Нажимая на "Зарегистрироваться!" вы соглашаетесь с
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                >Условиями конфиденциальности</a
+              >.
+            </p>
+            <button type="submit" class="registerbtn">
+              Зарегистрироваться!
+            </button>
+          </div>
+
+          <div class="content" style="text-align: center; float: none">
+            <p>
+              Уже есть аккаунт?
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                >Войти</a
+              >.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
