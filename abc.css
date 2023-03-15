@@ -89,7 +89,6 @@ p {
   flex-basis: 28%;
   height: 400px;
   opacity: 0;
-  transition: 1s;
 }
 
 #slideshow img.active {
@@ -175,6 +174,19 @@ p {
   width: fit-content;
   padding: 20px 50px;
   font-family: Verdana;
+}
+
+.content button {
+  font-family: Verdana;
+  font-size: 24px;
+  border-radius: 5vh;
+  transition: 1s;
+  box-shadow: 0 0 0 black;
+}
+
+.content button:hover {
+  box-shadow: 0 0 2vh white;
+  transition: 1s;
 }
 
 table {
