@@ -96,6 +96,15 @@ p {
   transition: 1s;
 }
 
+#tooltip {
+  padding: 1vh, 1vh;
+  font-size: 16pt;
+  transition: 1s;
+  background-color: black;
+  border-color: aqua;
+  border-style: dashed;
+}
+
 .dropbtn {
   background-color: #3498db;
   color: white;

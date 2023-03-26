@@ -1,8 +1,9 @@
 const slides = document.querySelectorAll("#slideshow img");
-let currentSlide = 0;
+let currentSlide = 1;
 let slideInterval;
 
 function startSlideShow() {
+  nextSlide();
   slideInterval = setInterval(nextSlide, 3000);
 }
 

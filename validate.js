@@ -6,7 +6,7 @@ const pswrepeatInput = document.querySelector("#psw-repeat");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  let emailPattern = /^\S+@\S+\.\S+$/;
+  let emailPattern = /[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   if (!emailPattern.test(emailInput.value)) {
     alert("Please enter a valid email address");
     emailInput.focus();
